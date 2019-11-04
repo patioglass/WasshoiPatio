@@ -1,0 +1,58 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: url("test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 596px;
+}
+a{
+    color: aliceblue;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 9%;
+    text-align: center;
+    background: rgba(255,255,255,0.6);
+    padding:  50px 1px 140px 1px;
+    max-width: 500px;
+    border-radius: 20px;
+}
+.user_img{
+    display: none;
+    width: 30%;
+    border-radius: 100px;
+}
+.clickButton{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 20%;
+    min-width: 220px;
+    border-radius: 20px;
+    border: 1px solid #444;
+    cursor: pointer;
+}
+.clickButton:hover{
+    background: #fff;
+    color:#ff5de6;
+}
+.game_show{
+    display: none;
+    margin:  0 auto;
+    text-align: center;
+}
+.wasshoi{
+    position: fixed;
+    left: 35%;
+}
+.result{
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+    display: none;
+}
+.result a{
+    color: aliceblue;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>あの人をわっしょいわっしょい</title>
+        <link rel="stylesheet" type="text/css" href="./main.css">
+        <script src="knockout.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="main.js"></script>
+        
+    </head>
+    <body>
+        <a href="https://twitter.com/patioglass" target="_blank">管理者：ぱちお</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://patioglass.github.io/WasshoiPatio" data-count="vertical" data-text="Twitterのあの人をわっしょいするだけ" data-hashtags="Wasshoiぱちお夏の陣2015">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <div class="wrapper">
+            <div class="main">
+                <p>※音が出ますご注意を</p>
+                <p>たぶんPCからの方が良い</p>
+                <p>わっしょいしたい相手のTwitterID</p>
+                <p>twitterID指定してから「この人をわっしょいする」をダブルクリックしてください</p>
+                <p>色々終わっていますが、ソースも読みたくないので保守されてないゲームです</p>
+                <p>ハッシュタグ「Wasshoiぱちお夏の陣2015」でしたが2015年終わってたので「Wasshoiぱちお」に変わっています（2019/10）</p>
+                <span>@</span>
+                <input type="text" data-bind="value: screen_name">
+                <p class="clickButton" data-bind="click:clickFunction">この人をわっしょいする</p>
+            </div>
+        </div>
+        <div class="game_show">
+            <div class="wasshoi">
+            </div>
+            <audio class="sound1" preload="auto">
+                <source src="wasshoi.wav" type="audio/wav">
+            </audio>
+            <canvas id="canvas"></canvas>
+            <audio class="sound" preload="auto">
+                <source src="./%EF%BD%BB%EF%BE%96%EF%BE%85%EF%BE%97%EF%BD%B0%EF%BD%AF!!.wav" type="audio/wav">
+            </audio>
+        </div>
+        <div class="result">
+            <div class="score">
+                <h2></h2>
+            </div>
+            <h1>慈悲はない</h1>
+            <a href="" target="_blank" class="result_score">結果をツイートする</a>
+            <img src="bakuhatu.jpg">
+            <a href="http://patioglass.github.io/WasshoiPatio">もう一度遊ぶ</a>
+            
+        </div>
+        
+    </body>
+</html>
