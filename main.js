@@ -130,7 +130,7 @@ $(function(){
             $(".game_show").fadeOut("slow");
             $(".result").fadeIn();
             $("h2").append(count+"秒の間、"+viewModel.screen_name()+"をWasshoiした");
-            $(".result_score").attr("href","http://twitter.com/intent/tweet?url=http://patioglass.github.io/WasshoiPatio&amp;text="+count+"秒の間、 @"+viewModel.screen_name()+"をWasshoiした&amp;hashtags=Wasshoiぱちお");
+            $(".result_score").attr("href","http://twitter.com/intent/tweet?url=http://patioglass.github.io/WasshoiPatio&text="+count+"秒の間、 @"+viewModel.screen_name()+"をWasshoiした&hashtags=Wasshoiぱちお");
             flag = false;
         }
         judge();
